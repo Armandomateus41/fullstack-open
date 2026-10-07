@@ -1,11 +1,11 @@
-FULL STACK OPEN — PARTES 0 E 1
+FULL STACK OPEN — PARTES 0 A 2
 Preparado em 07/10/2026 para Armando Mateus Capita.
 
 AUTORIA E ESTADO
 Implementação e diagramas preparados com assistência de OpenAI Codex.
-17 enunciados cobertos: 0.4–0.6 e 1.1–1.14.
+37 enunciados cobertos: 0.4–0.6, 1.1–1.14 e 2.1–2.20.
 As leituras 0.1–0.3 não foram declaradas concluídas.
-Os arquivos ainda não foram enviados ao curso.
+As Partes 0 e 1 já foram publicadas no GitHub. O registro no curso segue pendente.
 
 EXECUTAR
 Requer Node.js 24 ou superior e pnpm.
@@ -40,7 +40,7 @@ lista, sem modificar a lista anterior. A média atribui +1 a good, 0 a
 neutral e -1 a bad. O percentual positivo divide good pelo total.
 
 VALIDAÇÃO REALIZADA
-- pnpm test: 6 testes passaram.
+- pnpm test: 8 testes passaram.
 - pnpm build: compilação concluída.
 - Courseinfo: 10 + 7 + 14 = 31 no navegador.
 - Unicafe: estado vazio sem tabela; 2 good, 1 neutral e 1 bad produziram
@@ -65,3 +65,29 @@ https://fullstackopen.com/en/part1/introduction_to_react/
 https://fullstackopen.com/en/part1/java_script/
 https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps/
 
+
+PARTE 2
+part2/courseinfo/ — lista de cursos, componentes em módulo e totais 42 e 10.
+part2/phonebook/ — agenda persistida em JSON Server, com API via Axios.
+part2/countries/ — pesquisa, seleção de país e tempo na capital.
+
+Em outro terminal, execute pnpm server na raiz para usar a agenda.
+O servidor usa 127.0.0.1:3001. O Vite encaminha /api-phonebook para ele.
+Os contatos incluídos são fictícios. A geração de dist compila apenas o
+frontend; uma publicação real da agenda também precisa hospedar a API.
+
+Validação da Parte 2:
+- Cadastro e persistência após recarregar.
+- Filtro sem distinguir letras maiúsculas de minúsculas.
+- Atualização de telefone com confirmação dentro da página.
+- Cancelamento preserva o contato; confirmação permite excluir.
+- Contato apagado no servidor antes da edição gera mensagem de erro e
+  remove a referência antiga da tela.
+- Países: resultados excessivos, ausência de resultados e escolha por botão.
+- Consultas reais de tempo em Brasília e Londres.
+
+A aplicação de países consulta o serviço público da Universidade de Helsinki
+em https://studies.cs.helsinki.fi/restcountries/api/all e os dados de tempo
+do Open-Meteo. Não requer chave de API para esta demonstração educacional.
+
+Repositório: https://github.com/Armandomateus41/fullstack-open
