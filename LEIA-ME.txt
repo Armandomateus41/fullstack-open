@@ -1,0 +1,67 @@
+FULL STACK OPEN — PARTES 0 E 1
+Preparado em 07/10/2026 para Armando Mateus Capita.
+
+AUTORIA E ESTADO
+Implementação e diagramas preparados com assistência de OpenAI Codex.
+17 enunciados cobertos: 0.4–0.6 e 1.1–1.14.
+As leituras 0.1–0.3 não foram declaradas concluídas.
+Os arquivos ainda não foram enviados ao curso.
+
+EXECUTAR
+Requer Node.js 24 ou superior e pnpm.
+Na pasta fullstack-open:
+  pnpm install --frozen-lockfile
+  pnpm dev
+Abrir http://127.0.0.1:5178/
+  pnpm test
+  pnpm build
+
+ORGANIZAÇÃO
+part0/ — três respostas Markdown com diagramas Mermaid e uma prévia visual.
+part1/courseinfo/ — componentes, props, objetos e soma dos exercícios.
+part1/unicafe/ — estado, feedback, média e percentual positivo.
+part1/anecdotes/ — frases originais em português, sorteio e votos por frase.
+tests/ — testes da lógica de estatísticas, votação, empate e sorteio.
+O estado final de cada aplicação reúne as etapas incrementais do enunciado.
+O package.json da raiz serve a todas as aplicações; execute a partir da raiz.
+
+REVISÃO DOS CONCEITOS
+HTML estrutura o conteúdo; CSS define sua apresentação; JavaScript controla
+comportamentos. No formulário tradicional, o POST é seguido por um
+redirecionamento e nova leitura da página.
+
+Na SPA, preventDefault impede o envio padrão do formulário. O JavaScript
+atualiza o DOM e envia JSON ao servidor, mantendo a página aberta.
+Uma atualização local não prova que o servidor persistiu o dado.
+
+Em React, props levam dados do componente pai ao filho. useState guarda
+dados que mudam e provoca uma nova renderização. Os votos usam uma nova
+lista, sem modificar a lista anterior. A média atribui +1 a good, 0 a
+neutral e -1 a bad. O percentual positivo divide good pelo total.
+
+VALIDAÇÃO REALIZADA
+- pnpm test: 6 testes passaram.
+- pnpm build: compilação concluída.
+- Courseinfo: 10 + 7 + 14 = 31 no navegador.
+- Unicafe: estado vazio sem tabela; 2 good, 1 neutral e 1 bad produziram
+  total 4, média 0,25 e positivo 50%.
+- Anecdotes: voto preservado ao trocar de frase; outra frase com 2 votos
+  passou a vencedora, superando a anterior com 1.
+- Mermaid: 3 diagramas renderizados; render-status=success.
+- Sem avisos ou erros de console nos percursos consultados.
+- O build avisa sobre o tamanho de alguns módulos do Mermaid. Isso não
+  impediu a compilação nem a renderização da prévia local.
+
+ENTREGA
+Revisar o material e respeitar as declarações pessoais do formulário.
+Informar apenas horas de estudo efetivamente dedicadas pelo aluno.
+Não apresentar o código gerado pelo assistente como autoria independente.
+A entrega de uma parte é definitiva segundo as instruções atuais do curso.
+
+FONTES
+https://fullstackopen.com/ptbr/part0/fundamentos_de_aplicacoes_web/
+https://fullstackopen.com/en/part0/general_info/
+https://fullstackopen.com/en/part1/introduction_to_react/
+https://fullstackopen.com/en/part1/java_script/
+https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps/
+
