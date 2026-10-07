@@ -2,7 +2,7 @@
 
 Material de estudo de Armando Mateus Capita para o [Full Stack Open](https://fullstackopen.com/).
 
-**Assistência de IA:** as soluções, os diagramas, as frases e os testes deste repositório foram preparados com assistência de OpenAI Codex. Não são apresentados como autoria independente do aluno. A revisão pessoal e o registro das entregas estão pendentes.
+**Assistência de IA:** as soluções, os diagramas, as frases e os testes deste repositório foram preparados com assistência de OpenAI Codex. Não são apresentados como autoria independente do aluno. Armando confirmou as leituras e aproximadamente duas horas de estudo em cada uma das Partes 0, 1 e 2.
 
 ## Exercícios
 
@@ -16,7 +16,7 @@ Material de estudo de Armando Mateus Capita para o [Full Stack Open](https://ful
 | [part2/phonebook](part2/phonebook/) | 2.6–2.17 | Agenda com Axios e JSON Server |
 | [part2/countries](part2/countries/) | 2.18–2.20 | Busca de países e tempo nas capitais |
 
-As etapas incrementais estão reunidas na versão final de cada aplicação. Armando confirmou a leitura dos materiais 0.1–0.3 em 7 de outubro de 2026. O envio ao curso aguarda as horas de estudo, exigidas pelo formulário.
+As etapas incrementais estão reunidas na versão final de cada aplicação. Em 7 de outubro de 2026, o painel oficial confirmou o envio das Partes 0, 1 e 2: 40 atividades (incluindo as leituras 0.1–0.3) e 6 horas de estudo informadas pelo aluno. As demais partes do curso continuam pendentes.
 
 ## Executar
 

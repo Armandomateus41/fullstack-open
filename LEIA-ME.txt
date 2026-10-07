@@ -5,7 +5,10 @@ AUTORIA E ESTADO
 Implementação e diagramas preparados com assistência de OpenAI Codex.
 37 enunciados cobertos: 0.4–0.6, 1.1–1.14 e 2.1–2.20.
 Armando confirmou as leituras 0.1–0.3 em 07/10/2026.
-As Partes 0, 1 e 2 já foram publicadas no GitHub. O registro no curso aguarda as horas reais de estudo, exigidas pelo formulário.
+As Partes 0, 1 e 2 foram publicadas no GitHub e enviadas ao curso em 07/10/2026.
+O painel confirmou 40 atividades: 6 na Parte 0, 14 na Parte 1 e 20 na Parte 2.
+Armando informou aproximadamente 2 horas em cada parte, totalizando 6 horas.
+As demais partes do curso continuam pendentes.
 
 EXECUTAR
 Requer Node.js 24 ou superior e pnpm.
