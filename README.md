@@ -16,7 +16,7 @@ Material de estudo de Armando Mateus Capita para o [Full Stack Open](https://ful
 | [part2/phonebook](part2/phonebook/) | 2.6–2.17 | Agenda com Axios e JSON Server |
 | [part2/countries](part2/countries/) | 2.18–2.20 | Busca de países e tempo nas capitais |
 
-As etapas incrementais estão reunidas na versão final de cada aplicação. As leituras 0.1–0.3 ainda não foram registradas como concluídas.
+As etapas incrementais estão reunidas na versão final de cada aplicação. Armando confirmou a leitura dos materiais 0.1–0.3 em 7 de outubro de 2026. O envio ao curso aguarda as horas de estudo, exigidas pelo formulário.
 
 ## Executar
 

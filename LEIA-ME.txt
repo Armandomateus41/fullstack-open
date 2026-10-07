@@ -4,8 +4,8 @@ Preparado em 07/10/2026 para Armando Mateus Capita.
 AUTORIA E ESTADO
 Implementação e diagramas preparados com assistência de OpenAI Codex.
 37 enunciados cobertos: 0.4–0.6, 1.1–1.14 e 2.1–2.20.
-As leituras 0.1–0.3 não foram declaradas concluídas.
-As Partes 0 e 1 já foram publicadas no GitHub. O registro no curso segue pendente.
+Armando confirmou as leituras 0.1–0.3 em 07/10/2026.
+As Partes 0, 1 e 2 já foram publicadas no GitHub. O registro no curso aguarda as horas reais de estudo, exigidas pelo formulário.
 
 EXECUTAR
 Requer Node.js 24 ou superior e pnpm.
